@@ -89,3 +89,32 @@ li * {
 
     margin-bottom: 0px;
 }
+
+@media screen and (max-width: 2208px) {
+    .sidebar {
+        width: 25vw;
+    }
+
+    .content {
+        margin-left: 25vw;
+    }
+}
+ 
+@media screen and (max-width: 1181px) {
+    .logo {
+        position: static;
+    }
+
+    .logo-underline {
+        width: 260px;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .content {
+        margin-left: 0vw;
+        padding: 25px;
+    }
+}
