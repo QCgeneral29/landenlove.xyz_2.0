@@ -16,6 +16,10 @@ li * {
     color: black;
 }
 
+a {
+    color: #FD8D30;
+}
+
 .logo {
     position: fixed;
     z-index: 1;
