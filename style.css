@@ -48,6 +48,16 @@ a {
     height: 100%;
 }
 
+@counter-style repeating-emoji {
+    system: cyclic;
+    symbols: "\1F4DD" "\1F4D9" "\1F4BC" "\1F4C1" "\1F393" "\1F4AA" "\1F4AD" "\1F4F1"; /*unicode code point*/
+    suffix: " ";
+}
+
+.sidebar li {
+    list-style-type: repeating-emoji !important;
+}
+
 .nav-link {
     position: relative;
     top: 7px;
