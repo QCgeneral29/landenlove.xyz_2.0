@@ -36,6 +36,10 @@ a {
     border-radius: 1px;
 }
 
+.blog-link-mobile {
+    display: none;
+}
+
 .sidebar {
     position: fixed;
     background-color: #FFFFFF;
@@ -121,6 +125,11 @@ a {
 
     .logo-underline {
         width: 260px;
+    }
+
+    .blog-link-mobile {
+        display: block;
+        text-align: center;
     }
 
     .sidebar {
