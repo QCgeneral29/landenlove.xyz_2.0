@@ -109,6 +109,11 @@ a {
 }
 
 @media screen and (max-width: 2208px) {
+
+    h1 {
+        margin-bottom: 7px;
+    }
+
     .sidebar {
         width: 25vw;
     }
@@ -119,6 +124,7 @@ a {
 }
  
 @media screen and (max-width: 1181px) {
+
     .logo {
         position: static;
     }
